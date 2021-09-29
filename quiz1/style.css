@@ -73,38 +73,3 @@ nav li a:hover {
   line-height: 1.3em;
   color: #98aBad;
 }
-
-@media (min-width: 1040px){
-  .container {
-      grid-template-areas:"sidebar content" ;
-      grid-template-rows: 1fr auto ;
-      grid-template-columns: 300px 1f;
-  }
-
-  nav ul{
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-  }
-  .sidebar{
-      background: #1548a5;
-      padding-top: 10em;
-  }
-  .fill{
-      text-align: left;
-      margin: 7em 0;
-  }
-  .fill img {
-      width: 200px;
-      float: right;
-  }
-  .fill h1{
-      font-size: 3em;
-  }
-  .fill p{
-      width: 60%;
-  }
- 
-
-
-}
