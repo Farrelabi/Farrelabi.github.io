@@ -7,7 +7,7 @@ body {
   grid-area: content;
 }
 .sidebar{
-  grid-area: sidebar;
+  grid-area: upnavbar;
   background-color: #1054d4;
   justify-content: center;
 }
