@@ -6,7 +6,7 @@ body {
 .content {
   grid-area: content;
 }
-.sidebar{
+.upnavbar{
   grid-area: upnavbar;
   background-color: #1054d4;
   justify-content: center;
