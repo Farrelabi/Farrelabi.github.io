@@ -6,8 +6,8 @@ body {
 .content {
   grid-area: content;
 }
-.sidebar{
-  grid-area: sidebar;
+.upnavbar{
+  grid-area: upnavbar;
   background-color: #1054d4;
   justify-content: center;
 }
@@ -18,13 +18,13 @@ body {
   height: 100;
   height: 100vh;
   display: grid;
-  grid-template-areas: "sidebar" "content";
+  grid-template-areas: "upnavbar" "content";
   grid-template-columns: 1fr;
   grid-template-rows: 130px 800px 250px;
 
 }
 
-.content, .sidebar{
+.content, .upnavbar{
   padding: 1em;
 }
 
